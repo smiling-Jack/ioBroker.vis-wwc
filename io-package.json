@@ -1,0 +1,34 @@
+{
+    "common": {
+        "name":                     "vis-wwc",
+        "version": "0.1.6",
+        "title":                    "ioBroker Visualisation - spezial Widgets",
+        "desc": {
+            "en":                   "spezial Widgets",
+            "de":                   "spezial Widgets",
+            "ru":                   ""
+        },
+        "platform":                 "Javascript/Node.js",
+        "loglevel":                 "info",
+        "icon":                     "",
+        "enabled":                  true,
+        "mode":                     "once",
+        "extIcon":                  "",
+        "keywords":                 [""],
+        "readme":                   "",
+        "authors": [
+            "smiling_Jack <smiling_Jack@ioBroker.net>"
+        ],
+        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license":                  "MIT",
+        "dependencies":             ["vis"],
+        "onlyWWW":                  true,
+        "singleton":                true,
+        "type":                     "vis",
+		"restartAdapters":          ["vis"]
+    },
+    "native": {
+    },
+    "instanceObjects": [
+    ]
+}
